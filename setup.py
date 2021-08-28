@@ -7,7 +7,7 @@ with open(os.path.join(base_dir, "README.md"), 'r') as f:
     long_description = f.read()
 
 setuptools.setup(
-    name="fdsreader",
+    name="fdsdecompose",
     author="FZJ IAS-7/BUW CCE (Prof. Dr. Lukas Arnold, Jan Vogelsang)",
     author_email="l.arnold@fz-juelich.de",
     description="Python script to automate decomposition of MESH statements.",
@@ -22,4 +22,5 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
     install_requires=[],
+    version="1.0.0"
 )

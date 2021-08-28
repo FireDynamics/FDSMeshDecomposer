@@ -1,0 +1,14 @@
+jobs:
+  include:
+    - stage: deploy
+      language: python
+      python: 3.8
+      script:
+        - cd $TRAVIS_BUILD_DIR
+        - python setup.py sdist bdist_wheel
+      deploy:
+        - provider: pypi
+          user: "__token__"
+          password: $PYPI_TOKEN
+          repository: testpypi
+          skip_existing: true
