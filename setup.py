@@ -22,5 +22,10 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
     install_requires=[],
-    version="1.0.0"
+    entry_points={
+        'console_scripts': [
+            'fdsdecompose = fdsdecompose.main:main',
+        ],
+    },
+    version="1.0.1"
 )
