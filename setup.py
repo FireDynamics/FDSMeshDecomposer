@@ -27,5 +27,5 @@ setuptools.setup(
             'fdsdecompose = fdsdecompose.main:main',
         ],
     },
-    version="1.0.1"
+    version="1.0.2"
 )
