@@ -1,7 +1,7 @@
 import argparse
 import os
 
-from mesh import *
+from .mesh import *
 
 
 def main():
