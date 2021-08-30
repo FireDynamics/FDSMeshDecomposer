@@ -2,7 +2,7 @@
 > Python script to automate decomposition of MESH statements
 
 [![Build Status](https://travis-ci.com/FireDynamics/FDSMeshDecomposer.svg?branch=master)](https://travis-ci.com/FireDynamics/FDSMeshDecomposer)  
-[![PyPI version](https://badge.fury.io/py/fdsdecompose.png)](https://badge.fury.io/py/fdsdecompose)  
+[![PyPI version](https://badge.fury.io/py/fdsdecompose.png)](https://badge.fury.io/py/fdsdecompose)
 
 
 ## Installation
